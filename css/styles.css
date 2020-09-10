@@ -1,0 +1,50 @@
+#main {
+    background-color: grey;
+    width: fit-content;
+    height: 100vh;
+    position: absolute;
+}
+
+#placeholder {
+    width: 640px;
+    height: 360px;
+    border: 10px;
+    margin: 16px;
+    background-color: grey;
+    float: left;
+    cursor: pointer;
+}
+
+.option {
+    width: 200px;
+    height: 100px;
+    border: 5px;
+    border-radius: 1px;
+    margin-top: 16px;
+    margin-right: 128px;
+    background-color: #444444;
+    float: right;
+    cursor: pointer;
+}
+
+#combox {
+    width: 640px;
+    height: 200px;
+    float: left;
+    margin-left: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    width: 640px;
+    height: 200px;
+    float: left;
+    margin-left: 5px;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
